@@ -1,3 +1,6 @@
+# This query returns list of tables and their columns with details.
+# https://dataedo.com/asset/img/blog/sql_server_data_dictionary_tables_columns_query_results.png
+
 select schema_name(tab.schema_id) as schema_name,
        tab.name as table_name, 
        col.name as column_name, 
