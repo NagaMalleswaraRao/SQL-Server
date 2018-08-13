@@ -1,3 +1,6 @@
+# This query returns list of tables and their foreign keys.
+# https://dataedo.com/asset/img/blog/sql_server_data_dictionary_foreign_keys_query_results.png
+
 select schema_name(tab.schema_id) as table_schema_name,
        tab.name as table_name,
        col.name as column_name,
