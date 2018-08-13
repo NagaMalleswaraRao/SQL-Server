@@ -1,3 +1,5 @@
+#This query returns list of tables in a database sorted by schema
+#and table name with comments and number of rows in each table.
 select schema_name(tab.schema_id) as schema_name,
        tab.name as table_name, 
        tab.create_date as created,  
