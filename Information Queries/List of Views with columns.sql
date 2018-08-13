@@ -1,3 +1,6 @@
+# This query returns list of views with their columns.
+# https://dataedo.com/asset/img/blog/sql_server_data_dictionary_views_columns_query_results.png
+
 select schema_name(v.schema_id) as schema_name,
        v.name as view_name, 
        col.name as column_name,
