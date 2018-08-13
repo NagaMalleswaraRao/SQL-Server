@@ -1,5 +1,7 @@
 #This query returns list of tables in a database sorted by schema
 #and table name with comments and number of rows in each table.
+# https://dataedo.com/asset/img/blog/sql_server_data_dictionary_tables_query_results.png
+
 select schema_name(tab.schema_id) as schema_name,
        tab.name as table_name, 
        tab.create_date as created,  
