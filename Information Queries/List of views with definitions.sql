@@ -1,3 +1,6 @@
+#This query returns list of database views with their definition SQL and a comment.
+# https://dataedo.com/asset/img/blog/sql_server_data_dictionary_views_query_results.png
+
 select schema_name(v.schema_id) as schema_name,
        v.name as view_name,
        v.create_date as created,
