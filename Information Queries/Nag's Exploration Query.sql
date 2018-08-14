@@ -1,0 +1,1 @@
+-- My Exploration query to get information of tables and their column properties from a database
