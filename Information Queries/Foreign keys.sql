@@ -1,5 +1,7 @@
 # This query returns list of tables and their foreign keys.
+# Resource: https://dataedo.com/blog/useful-sql-server-data-dictionary-queries-every-dba-should-have#toc_1
 # https://dataedo.com/asset/img/blog/sql_server_data_dictionary_foreign_keys_query_results.png
+
 
 select schema_name(tab.schema_id) as table_schema_name,
        tab.name as table_name,
