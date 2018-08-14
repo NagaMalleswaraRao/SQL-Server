@@ -1,5 +1,6 @@
-#This query returns list of tables in a database sorted by schema
-#and table name with comments and number of rows in each table.
+# This query returns list of tables in a database sorted by schema
+# and table name with comments and number of rows in each table.
+# Resource: https://dataedo.com/blog/useful-sql-server-data-dictionary-queries-every-dba-should-have#toc_1
 # https://dataedo.com/asset/img/blog/sql_server_data_dictionary_tables_query_results.png
 
 select schema_name(tab.schema_id) as schema_name,
