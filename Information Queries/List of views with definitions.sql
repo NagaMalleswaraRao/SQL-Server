@@ -1,4 +1,5 @@
-#This query returns list of database views with their definition SQL and a comment.
+# This query returns list of database views with their definition SQL and a comment.
+# Resource: https://dataedo.com/blog/useful-sql-server-data-dictionary-queries-every-dba-should-have#toc_1
 # https://dataedo.com/asset/img/blog/sql_server_data_dictionary_views_query_results.png
 
 select schema_name(v.schema_id) as schema_name,
