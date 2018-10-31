@@ -1,12 +1,12 @@
 'Data:
-'CustID	 OrderDate
+'CustID	      OrderDate
  'A	      2018-04-01
  'A	      2018-04-28
- 'A				2018-04-15
- 'B				2018-04-02
- 'B				2018-05-15
- 'C				2018-04-15
- 'C				2018-04-17
+ 'A	      2018-04-15
+ 'B	      2018-04-02
+ 'B    	      2018-05-15
+ 'C	      2018-04-15
+ 'C           2018-04-17
  
  'Get the number of Reorders during Apr 1st and 30 days after
  
