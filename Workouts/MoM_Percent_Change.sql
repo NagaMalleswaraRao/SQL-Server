@@ -13,7 +13,7 @@ Where left(S.[OrderDateKey],4)='2013'
 
 Group by 
       left(S.[OrderDateKey],4),
-	    substring(cast(([OrderDateKey])as varchar(10)),5,2)	
+      substring(cast(([OrderDateKey])as varchar(10)),5,2)	
 )
 
 Select 
