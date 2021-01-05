@@ -38,4 +38,6 @@ on C.company_code=M.company_code
 Left Join EM_CTE EM
 on C.company_code=EM.company_code
 
-Order by Cast(Replace(C.company_code,"C","") as int)
+Order by C.company_code
+--Cast(Replace(C.company_code,"C","") as int)
+
