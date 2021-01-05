@@ -1,4 +1,5 @@
---contest_id, hacker_id, name, and the sums of total_submissions, total_accepted_submissions, total_views, and total_unique_views for each contest sorted by contest_id. Exclude the contest from the result if all four sums are 0.
+--contest_id, hacker_id, name, and the sums of total_submissions, total_accepted_submissions, total_views, and total_unique_views for each contest sorted by contest_id. 
+--Exclude the contest from the result if all four sums are 0.
 --Colleges, Challenges, View_Stats, Submission_Stats
 With CTE as
 (
